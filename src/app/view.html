@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>自定义菜单</title>
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/index.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+        <a class="navbar-brand" href="#">自定义菜单</a>
+        <button type="button" class="btn btn-default btn-right">排序</button>
+        <button type="button" class="btn btn-default btn-right">+</button>
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-7">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-triangle-bottom icon-head"></span>
+                        <span class="menu-1">
+                            一级菜单1
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            二级菜单1-1
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span>
+                            <span class="label label-default trash">菜单Key</span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            二级菜单1-2
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span><span class="label label-default trash">跳转网页</span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            二级菜单1-3
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span><span class="label label-default trash">扫描事件</span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            <span class="glyphicon glyphicon-plus"></span>
+                            添加二级菜单
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-triangle-bottom icon-head"></span>
+                        <span class="menu-1">
+                            一级菜单2
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span><span class="label label-default trash">扫描弹框</span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            <span class="glyphicon glyphicon-plus"></span>
+                            添加二级菜单
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-triangle-bottom icon-head"></span>
+                        <span class="menu-1">
+                            一级菜单3
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            二级菜单3-1
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span><span class="label label-default trash">拍照相册</span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            二级菜单3-2
+                            <span class="glyphicon glyphicon-pencil clarity"></span>
+                            <span class="glyphicon glyphicon-trash clarity trash"></span><span class="label label-default trash">地理选择</span>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="menu-2">
+                            <span class="glyphicon glyphicon-plus"></span>
+                            添加二级菜单
+                        </span>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-primary" disabled="disabled">保存</button>
+                <button type="button" class="btn btn-primary">发布</button>
+            </div>
+
+            <div class="col-xs-12 col-sm-5 hidden-xs">
+                <div class="preview">
+                    <div class="center preview-title">预览</div>
+                    <div class="preview-menu">
+                        <div class="preview-menu-2 preview-menu-float-1">
+                            <a class="preview-menu-click">二级菜单1-1</a>
+                            <a class="preview-menu-click">二级菜单1-2</a>
+                            <a class="preview-menu-click">二级菜单1-3</a>
+                            <span class="custom_menu_arrow">
+                                <span class="custom_menu_down"></span>
+                                <span class="custom_menu_up"></span>
+                            </span>
+                        </div>
+                        <div class="preview-menu-1">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            一级菜单1
+                        </div>
+
+                        <div class="preview-menu-1">
+                            一级菜单2
+                        </div>
+
+                        <div class="preview-menu-2 preview-menu-float-3">
+                            <a class="preview-menu-click">二级菜单3-1</a>
+                            <a class="preview-menu-click">二级菜单3-2</a>
+                            <span class="custom_menu_arrow">
+                                <span class="custom_menu_down"></span>
+                                <span class="custom_menu_up"></span>
+                            </span>
+                        </div>
+                        <div class="preview-menu-1">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            一级菜单3
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

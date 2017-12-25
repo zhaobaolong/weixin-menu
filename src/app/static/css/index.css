@@ -1,0 +1,236 @@
+.center{
+    text-align: center;
+    vertical-align: middle!important;
+}
+a:link,a:visited,a:hover,a:active {
+    text-decoration: none;
+}
+.list-group {
+    margin-top: 10px;
+}
+.menu-1 {
+    margin-left: 6px;
+}
+.menu-2 {
+    margin-left: 24px;
+}
+.menu-3 {
+    margin-left: 24px;
+}
+
+.btn-left {
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 54px;
+}
+
+.btn-right {
+    float: right;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 54px;
+}
+.clarity {
+    margin-left: 5px;
+    opacity: 0;
+}
+.list-group-item:hover {
+    background-color: #eee;
+}
+.list-group-item:hover .clarity{
+    opacity: 1;
+}
+.trash {
+    margin-left: 10px;
+    float: right;
+}
+.preview {
+    width: 362px;
+    height: 642px;
+    position: relative;
+    background: url(../img/preview-background.png) 0 0 no-repeat;
+}
+.preview-title {
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+.preview-qucode {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+
+
+.preview-menu {
+    position: absolute;
+    height: 40px;
+    bottom: 81px;
+    right: 22px;
+    width: 272px;
+}
+.preview-menu-one {
+    width: 32%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border-left: 1px solid #ccc;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    height: 40px;
+    padding-top: 10px;
+}
+.preview-menu-two {
+    position: absolute;
+    min-width: 140px;
+    left: 50%;
+    margin-left: -70px;
+    bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.preview-menu-has-3 {
+    width: 32%;
+}
+.preview-menu-has-2 {
+    width: 50%;
+}
+.preview-menu-has-1 {
+    width: 100%;
+}
+.preview-menu-click {
+    display: block;
+    color: #242424;
+    padding: 6px 10px;
+    border-top: 1px solid #ccc;
+    cursor: pointer;
+}
+.preview-menu-float-3-1 {
+    left: 35px;
+}
+.preview-menu-float-3-3 {
+    left: 200px;
+}
+.preview-menu-float-2-2 {
+    left: 200px;
+}
+.preview-menu-float-2-1 {
+    left: 65px;
+}
+.custom_menu_arrow {
+    display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    height: 5px;
+    width: 10px;
+    left: 50%;
+    margin-left: -5px;
+    vertical-align: middle;
+}
+.custom_menu_down {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #ccc transparent transparent;
+    border-width: 5px 5px 0;
+    left: 0;
+    bottom: 0;
+}
+.custom_menu_up {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #f1f1f1 transparent transparent;
+    border-width: 5px 5px 0;
+    left: 0;
+    bottom: 1px;
+}
+
+/* 正在编辑的 */
+.has-error {
+    border: 1px solid #ccc;
+    border-color: #a94442;
+    border-radius: 4px;
+}
+input:focus {
+    outline: none;
+} 
+.custom_menu_notice {
+    color: #da4a38;
+}
+.my-input{
+    width: 120px;
+}
+.container {
+    display: none;
+}
+.float-right {
+    float: right;
+}
+.pointer {
+    cursor: pointer;
+}
+.my-select {
+    float: right;
+    margin-top: -2px;
+    margin-right: 80px;
+    padding: 2px 12px;
+}
+.modal {
+    margin-top: 100px;
+}
+.form_info_block {
+    color: #da4a38;
+}
+.modal-body {
+    padding: 50px;
+}
+.node {
+    margin-top: 30px;
+    color: gray;
+}
+
+
+.dd-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.dd-item {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    line-height: 28px;
+}
+.dd-handle {
+    display: block;
+    margin: 0;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    margin-bottom: -1px;
+}
+.dd-two {
+    padding-left: 18px;
+}
+.dd {
+    margin-top: 12px;
+}
+
+.sort {
+    float: right;
+    margin-top: 5px;
+}

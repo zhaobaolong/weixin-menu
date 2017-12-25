@@ -1,0 +1,24 @@
+﻿{
+  "main": "app/index.html", 
+  "name": "WeixinMenuEditor",
+  "description": "使用nw.js封装的一个微信公众号菜单编辑器App",
+  "version": "0.0.1",
+  "keywords": [ "微信", "菜单编辑器" ],  
+  "window": {
+    "title": "微信菜单编辑器",
+    "icon": "app/static/img/weixin_logo.jpg",
+    "toolbar": true,
+	"frame": true,
+    "width": 1008,
+    "height": 750,
+	"position": "center",
+    "min_width": 400,
+    "min_height": 200
+  },
+  "webkit": {
+    "plugin": true,
+    "java": false,
+    "page-cache": false	
+  },
+  "chromium-args" :"-allow-file-access-from-files"
+}
